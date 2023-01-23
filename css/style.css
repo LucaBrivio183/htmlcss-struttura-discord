@@ -10,22 +10,33 @@ DEBUG
 __________________ */
 
 .debug header {
-    height: 731;
+    height: 696px;
 }
 
 
 .debug .headertop {
-    height: 119px;
+    height: 96px;
     background-color: #add8e6;
     align-items: center;
 }
 
 .debug .navigator {
-    height: 70px;
+    height: 56px;
     background-color: #daa520;
 }
 
 .debug .navigator > * {
+    border: 2px dashed black;
+}
+
+.debug .headerbottom {
+    background-color: #00008b;
+    height: 600px;
+}
+
+.debug .boxfucsia{
+    background-color:#ee82ee; 
+    height: 480px;
     border: 2px dashed black;
 }
 /*________________
@@ -42,8 +53,8 @@ __________________ */
 
 .navigator {
     display: flex;
-    width: 80%;
-    margin: 25px 0;
+    width: 60%;
+    margin: 20px 0;
 }
 
 .navigator > * {
@@ -64,6 +75,19 @@ __________________ */
     width: 20%;
     justify-content: flex-end;
 }
+
+.headerbottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #add8e6;
+}
+
+.boxfucsia {
+    width: 50%;
+
+}
+
 /*________________
 
 MAIN
