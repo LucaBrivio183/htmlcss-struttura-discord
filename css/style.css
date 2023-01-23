@@ -9,11 +9,6 @@
 DEBUG
 __________________ */
 
-.debug header {
-    height: 696px;
-}
-
-
 .debug .headertop {
     height: 96px;
     background-color: #add8e6;
@@ -38,6 +33,26 @@ __________________ */
     background-color:#ee82ee; 
     height: 480px;
     border: 2px dashed black;
+}
+
+.debug .row {
+    height: 600px;
+}
+
+.debug .largecol  {
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.debug .smallcol  {
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+.debug  .greenbox  {
+    background-color: #228b22;
+    border: 2px dashed black;
+    height: 1100px;
 }
 /*________________
 
@@ -92,6 +107,42 @@ __________________ */
 
 MAIN
 __________________ */
+
+main>section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+main>section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+
+.row {
+    display: flex;
+    width: 60%;
+    margin: 64px 0;
+}
+
+.largecol {
+    width: 60%;
+}
+
+.smallcol {
+    width: 40%;
+}
+
+
+.greenbox {
+    width: 66%;
+    margin: 60px 0;
+}
+
+main:last-child{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 /*________________
 
