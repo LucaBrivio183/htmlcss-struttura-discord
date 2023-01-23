@@ -9,13 +9,61 @@
 DEBUG
 __________________ */
 
+.debug header {
+    height: 731;
+}
 
 
+.debug .headertop {
+    height: 119px;
+    background-color: #add8e6;
+    align-items: center;
+}
+
+.debug .navigator {
+    height: 70px;
+    background-color: #daa520;
+}
+
+.debug .navigator > * {
+    border: 2px dashed black;
+}
 /*________________
 
 HEADER
 __________________ */
 
+.headertop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+
+.navigator {
+    display: flex;
+    width: 80%;
+    margin: 25px 0;
+}
+
+.navigator > * {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    width: 60%;
+    justify-content: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.login {
+    width: 20%;
+    justify-content: flex-end;
+}
 /*________________
 
 MAIN
