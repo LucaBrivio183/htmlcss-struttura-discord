@@ -101,6 +101,13 @@ __________________ */
     align-items: center;
 }
 
+.links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
 .links {
     width: 60%;
     justify-content: center;
