@@ -14,7 +14,7 @@ __________________ */
 DEBUG
 __________________ */
 
-.debug .headertop {
+.debug .header-top {
     height: 96px;
     background-color: #add8e6;
     align-items: center;
@@ -29,7 +29,7 @@ __________________ */
     border: 2px dashed black;
 }
 
-.debug .headerbottom {
+.debug .header-bottom {
     background-color: #00008b;
     height: 600px;
 }
@@ -44,12 +44,12 @@ __________________ */
     height: 600px;
 }
 
-.debug .largecol  {
+.debug .large-col  {
     background-color: #1e90ff;
     border: 2px dashed black;
 }
 
-.debug .smallcol  {
+.debug .small-col  {
     background-color: #ffc0cb;
     border: 2px dashed black;
 }
@@ -90,7 +90,13 @@ __________________ */
 COMMON
 __________________ */
 
+.big {
+    max-width: 1200px;
+}
 
+.small {
+    max-width: 900px;
+}
 
 /*________________
 
@@ -109,7 +115,6 @@ header{
 
 .header-bar {
     display: flex;
-    width: 60%;
     margin: 20px 0;
 }
 
@@ -147,8 +152,7 @@ header{
 }
 
 .header-box {
-    width: 50%;
-
+    width: 900px;
 }
 
 /*________________
@@ -168,7 +172,6 @@ main>section:nth-child(even) {
 
 .row {
     display: flex;
-    width: 60%;
     margin: 64px 0;
 }
 
@@ -182,7 +185,6 @@ main>section:nth-child(even) {
 
 
 .main-last-box {
-    width: 66%;
     margin: 60px 0;
 }
 
@@ -212,7 +214,6 @@ footer>section {
 
 .footer-row {
     display: flex;
-    width: 60%;
     margin-top: 12px;
     margin-bottom: 48px;
 }
@@ -231,7 +232,6 @@ footer>section {
     align-items: center;
     margin-top: 40px;
     margin-bottom: 0;
-    width: 60%;
 }
 
 .footer-links>* {
